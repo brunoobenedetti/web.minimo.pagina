@@ -1,0 +1,22 @@
+{
+  "name": "pagina.web.minimo",
+  "version": "1.0.0",
+  "description": "sass for web minimo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brunoobenedetti/web.minimo.pagina.git"
+  },
+  "author": "brunobenedetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brunoobenedetti/web.minimo.pagina/issues"
+  },
+  "homepage": "https://github.com/brunoobenedetti/web.minimo.pagina#readme",
+  "dependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
