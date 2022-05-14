@@ -1,0 +1,25 @@
+body{
+    color:$color-principla ;
+}
+.cuerpo__main{
+    &.h1{
+        text-align: center;
+    font-size:30px;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace 
+    }
+
+    &.h2{
+        text-align: center;
+        font-size: 30px;
+        font-style: italic;
+        font-family:'Courier New', Courier, monospace ;
+    }
+    &.p{
+        text-align: center;
+        font-style:italic;
+        font-family:'Courier New', Courier, monospace;
+        font-size: 30px;
+    }
+
+}
