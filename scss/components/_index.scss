@@ -1,7 +1,30 @@
+
 body{
-    color:$color-principla ;
+    background-color: #bb9e49;
+   padding:auto;
+    flex-wrap: row;
+
 }
-.cuerpo__main{
+.cuerpo__main h1{
+    text-align: center;
+    font-size:30px;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace ;
+
+}
+.cuerpo__main h2{
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace ;
+}
+p{
+    text-align: center;
+    font-style:italic;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 30px;
+}
+/* .cuerpo__main{
     &.h1{
         text-align: center;
     font-size:30px;
@@ -20,9 +43,9 @@ body{
         font-style:italic;
         font-family:'Courier New', Courier, monospace;
         font-size: 30px;
-    }
+    } */
 
-}
+
 .dice__img{
     display: grid;
     grid-template-columns:1fr;
