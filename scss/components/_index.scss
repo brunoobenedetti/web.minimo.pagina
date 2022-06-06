@@ -5,66 +5,41 @@ body{
     flex-wrap: row;
 
 }
-.cuerpo__main h1{
-    text-align: center;
-    font-size:30px;
-    font-style: italic;
-    font-family:'Courier New', Courier, monospace ;
 
-}
-.cuerpo__main h2{
-    text-align: center;
-    font-size: 30px;
-    font-style: italic;
-    font-family:'Courier New', Courier, monospace ;
-}
-p{
-    text-align: center;
-    font-style:italic;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 30px;
-}
-/* .cuerpo__main{
-    &.h1{
-        text-align: center;
-    font-size:30px;
-    font-style: italic;
-    font-family:'Courier New', Courier, monospace 
-    }
-
-    &.h2{
-        text-align: center;
-        font-size: 30px;
-        font-style: italic;
-        font-family:'Courier New', Courier, monospace ;
-    }
-    &.p{
-        text-align: center;
-        font-style:italic;
-        font-family:'Courier New', Courier, monospace;
-        font-size: 30px;
-    } */
-
-
-.dice__img{
-    display: grid;
-    grid-template-columns:1fr;
-    grid-template-rows:1fr ;
-    row-gap: 1rem;
-    width: 90vw;
-    box-sizing: border-box;
-    align-items: center ;
-    justify-items: center ;   
-}
-@media only screen and (max-width:1160px){
-    .dice__img{
-        grid-template-columns: 1fr;
-
-    }
-}
-@media only screen and(max-width:760px) {
-    .dice__img{
-     grid-template-columns: 1fr;   
-    }
+.ima_nud{
     
+    margin: auto;
+    text-align: center;
+    width:100%;
+    height:40%;
 }
+
+.img_dis{
+    text-align: center;
+    font-size:60px;
+    font-style:italic;
+    font-family:'Bebas Neue', cursive;
+} 
+    .dise__img{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-template-rows:1fr ;
+        row-gap: 1rem;
+        width: 75vw;
+        box-sizing: border-box;
+        align-items:center ;
+        justify-items: center ;  
+        margin: auto; 
+    }
+    @media only screen and (max-width:1160px){
+        .dise__img{
+            grid-template-columns: 1fr;
+    
+        }
+    }
+    @media only screen and(max-width:760px) {
+        .dise__img{
+         grid-template-columns: 1fr;   
+        }
+        
+    }

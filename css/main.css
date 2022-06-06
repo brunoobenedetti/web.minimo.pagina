@@ -33,6 +33,7 @@ body {
   transition: all .3s; }
 
 .piedePagina {
+  position: relative;
   background-color: #644c05;
   padding: auto; }
 
@@ -64,60 +65,35 @@ body {
   padding: auto;
   flex-wrap: row; }
 
-.cuerpo__main h1 {
+.ima_nud {
+  margin: auto;
   text-align: center;
-  font-size: 30px;
-  font-style: italic;
-  font-family: 'Courier New', Courier, monospace; }
+  width: 100%;
+  height: 40%; }
 
-.cuerpo__main h2 {
+.img_dis {
   text-align: center;
-  font-size: 30px;
+  font-size: 60px;
   font-style: italic;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'Bebas Neue', cursive; }
 
-p {
-  text-align: center;
-  font-style: italic;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px; }
-
-/* .cuerpo__main{
-    &.h1{
-        text-align: center;
-    font-size:30px;
-    font-style: italic;
-    font-family:'Courier New', Courier, monospace 
-    }
-
-    &.h2{
-        text-align: center;
-        font-size: 30px;
-        font-style: italic;
-        font-family:'Courier New', Courier, monospace ;
-    }
-    &.p{
-        text-align: center;
-        font-style:italic;
-        font-family:'Courier New', Courier, monospace;
-        font-size: 30px;
-    } */
-.dice__img {
+.dise__img {
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
   row-gap: 1rem;
-  width: 90vw;
+  width: 75vw;
   box-sizing: border-box;
   align-items: center;
-  justify-items: center; }
+  justify-items: center;
+  margin: auto; }
 
 @media only screen and (max-width: 1160px) {
-  .dice__img {
+  .dise__img {
     grid-template-columns: 1fr; } }
 
 @media only screen and (max-width: 760px) {
-  .dice__img {
+  .dise__img {
     grid-template-columns: 1fr; } }
 
 .main__contacto {
@@ -155,8 +131,14 @@ img.tex__dice {
 img.tex__dice {
   vertical-align: text-bottom; }
 
-body {
-  color: #bb9e49; }
+.valle {
+  width: 400px;
+  height: 300px; }
+
+p {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Montserrat Subrayada', sans-serif; }
 
 .dice__img {
   display: grid;
@@ -188,11 +170,11 @@ body {
   font-style: italic;
   font-family: 'Courier New', Courier, monospace; }
 
-p {
+aside {
   text-align: center;
   font-style: italic;
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 30px; }
+  font-family: 'Patua One', cursive;
+  font-size: 17px; }
 
 .dicenador__mi {
   display: grid;
@@ -223,3 +205,24 @@ div.center__tecx img.dicenador__mi {
 
 div.reset {
   clear: both; }
+
+.quines__somos h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Bebas Neue', cursive; }
+
+.quines__somos .p1 {
+  margin: 10px;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 25px;
+  font-weight: 900;
+  font-weight: bold; }
+
+.quines__somos p {
+  margin: 20px;
+  text-align: center;
+  line-height: 1.5em;
+  font-size: 18px;
+  font-style: oblique;
+  font-family: 'IM Fell Double Pica', serif; }
